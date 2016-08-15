@@ -1,0 +1,35 @@
+* {
+  background-color: #ffffcc;
+}
+
+header {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+nav {
+  border: 1px solid black;
+}
+
+nav a {
+  padding-right: 28px;
+  color: black;
+}
+
+img {
+  height: 500px;
+  width: 625px;
+  clear: both;
+  display: inline;
+}
+
+article {
+  float: right;
+  display: inline;
+}
+
+@media screen and (max-width: 665px) {
+  nav a {
+    display: block;
+  }
+}
