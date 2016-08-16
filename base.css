@@ -12,24 +12,32 @@ nav {
 }
 
 nav a {
-  padding-right: 28px;
+  padding-right: 30px;
   color: black;
+}
+
+#Picture {
+  float: left;
 }
 
 img {
   height: 500px;
   width: 625px;
-  clear: both;
-  display: inline;
+  padding: 10px;
 }
 
-article {
-  float: right;
-  display: inline;
+#Article {
+  padding: 10px;
 }
 
-@media screen and (max-width: 665px) {
+@media screen and (max-width: 675px) {
   nav a {
     display: block;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  #Picture {
+    float: none;
   }
 }
