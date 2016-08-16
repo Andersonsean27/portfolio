@@ -2,42 +2,8 @@
   background-color: #ffffcc;
 }
 
-header {
-  font-size: 20px;
-  font-weight: bold;
-}
-
-nav {
-  border: 1px solid black;
-}
-
-nav a {
-  padding-right: 30px;
-  color: black;
-}
-
-#Picture {
-  float: left;
-}
-
 img {
   height: 500px;
   width: 625px;
   padding: 10px;
-}
-
-#Article {
-  padding: 10px;
-}
-
-@media screen and (max-width: 675px) {
-  nav a {
-    display: block;
-  }
-}
-
-@media screen and (max-width: 900px) {
-  #Picture {
-    float: none;
-  }
 }
